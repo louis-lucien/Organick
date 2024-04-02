@@ -1,0 +1,299 @@
+/* body
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+.entete
+{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    
+    
+}
+
+.logo
+
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo img
+{
+ height :50px;
+}
+.logo p
+{
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 23.44px;
+text-align: left;
+color: #274C5B;
+}
+
+.menu
+{
+   display: flex;
+   align-items: right;
+}
+
+.menu ul
+{
+    display: flex;
+    margin-left: auto;
+}
+
+.menu li
+{
+    list-style: none;
+}
+
+.menu a
+{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 10px;
+text-align: left;
+text-decoration: none;
+color:#274C5B;
+padding-left: 1vw;
+}
+.m-mobile
+{
+    display: none;
+}
+
+@media screen and (min-width: 600px)
+{
+
+    body
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .entete
+    {
+    width: 100vw;
+    height: 10vh;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0; /* Ajouté pour supprimer les marges par défaut du navigateur */
+    /* display: flex; /* Ajouté pour centrer .entete */
+    /* justify-content: center; Ajouté pour centrer .entete */
+    /* align-items: center; Ajouté pour centrer .entete */ 
+}
+
+.entete {
+    width: 90vw; /* Modifié pour donner de l'espace sur les côtés */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Ajouté pour séparer .logo et .menu */
+    padding-left:2vw ;
+    padding-right: 1vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Ajouté pour centrer verticalement le texte et l'image */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #274C5B;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.menu li {
+    margin-left: 1vw; /* Ajouté pour donner de l'espace entre les éléments de la liste */
+    list-style: none; /* Ajouté pour supprimer les puces de liste */
+}
+
+.menu a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #274C5B;
+}
+
+.m-mobile {
+    display: none;
+}
+
+.partie1
+
+{
+    padding-top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Photo3.png'); /* Spécifiez le chemin de votre image */
+     /* Ajuste la taille de l'image pour remplir l'ensemble de l'élément parent */
+     background-repeat: no-repeat; /* Empêche l'image de se répéter */
+     background-position: right; /* Positionne l'image de fond à droite */
+}
+
+.contenu {
+    position: absolute; /* Position absolue par rapport au conteneur parent (.partie1) */
+    /* top: 50%; Place le contenu au milieu de la partie supérieure */
+    /* left: 5%; Ajuste la position du contenu à gauche */
+    transform: translateY(-50%); /* Centre verticalement le contenu */
+    color: white; /* Couleur du texte */
+    width: 530px;
+    height:405px;
+    top: 451px;
+    left: 260px;
+    gap: 23px;
+    opacity: 0px;
+
+}
+
+
+.contenu p {
+font-family: Yellowtail;
+font-size: 36px;
+font-weight: 400;
+line-height: 49.06px;
+text-align: left;
+color:#68A47F;
+
+}
+
+.contenu h1 {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+    
+    }
+    
+.contenu button
+{
+width:194px;
+height: 79px;
+padding: 28px 39px 28px 39px;
+gap: 10px;
+border-radius: 16px 16px 16px 16px;
+opacity: 0px;
+background: #EFD372;
+}
+
+
+.contenu a
+{
+    text-decoration: none;
+    width: 116px;
+    height:23px;
+    gap: 10px;
+    opacity: 0px;
+
+
+}
+.partie2 {
+    width:100vw;
+    height: 20vh;
+    top: 2vh;
+    padding-left: 4vw;
+    /* padding-right: 4vw; */
+    gap: 36px;
+    opacity: 0px;
+    display: flex;
+
+  }
+  
+  .image-wrapper1 {
+    flex: 1; /* Pour répartir l'espace disponible entre les deux images */
+    /* padding-left: 3vw; */
+    border-radius: 1%;
+    
+  }
+  .image-wrapper2 {
+    flex: 1; /* Pour répartir l'espace disponible entre les deux images */
+  }
+
+  
+  img {
+    max-width: 100%; /* Pour s'assurer que les images ne dépassent pas de leur conteneur */
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .entete {
+        width: 80vw;
+        height: 10vh;
+    }
+
+    .menu
+    {
+        visibility: hidden;
+    }
+
+    .m-mobile img
+    {
+        visibility: show;
+    }
+
+    .partie1
+    {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contenu
+    {
+        flex-direction: column;
+    }
+}
