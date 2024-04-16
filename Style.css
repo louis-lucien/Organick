@@ -1,104 +1,3 @@
-/* body
-{
-    width: 100vw;
-    height: 100vh;
-}
-
-.entete
-{
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    
-    
-}
-
-.logo
-
-{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-.logo img
-{
- height :50px;
-}
-.logo p
-{
-font-family: Roboto;
-font-size: 25px;
-font-weight: 700;
-line-height: 23.44px;
-text-align: left;
-color: #274C5B;
-}
-
-.menu
-{
-   display: flex;
-   align-items: right;
-}
-
-.menu ul
-{
-    display: flex;
-    margin-left: auto;
-}
-
-.menu li
-{
-    list-style: none;
-}
-
-.menu a
-{
-font-family: Roboto;
-font-size: 20px;
-font-weight: 700;
-line-height: 10px;
-text-align: left;
-text-decoration: none;
-color:#274C5B;
-padding-left: 1vw;
-}
-.m-mobile
-{
-    display: none;
-}
-
-@media screen and (min-width: 600px)
-{
-
-    body
-    {
-        width: 100vw;
-        height: 100vh;
-    }
-    
-    .entete
-    {
-    width: 100vw;
-    height: 10vh;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-} */
-
 body {
     width: 100vw;
     height: 100vh;
@@ -237,30 +136,645 @@ background: #EFD372;
 }
 .partie2 {
     width:100vw;
-    height: 20vh;
-    top: 2vh;
-    padding-left: 4vw;
-    /* padding-right: 4vw; */
-    gap: 36px;
-    opacity: 0px;
     display: flex;
-
-  }
-  
-  .image-wrapper1 {
-    flex: 1; /* Pour répartir l'espace disponible entre les deux images */
-    /* padding-left: 3vw; */
-    border-radius: 1%;
+    /* flex-wrap: wrap; */
     
-  }
-  .image-wrapper2 {
-    flex: 1; /* Pour répartir l'espace disponible entre les deux images */
-  }
 
+
+  }
+  .image-wrapper1 {
+    /* flex: 1; /* Pour répartir l'espace disponible entre les deux images */
+    /* padding-left: 3vw; */
+    /*border-radius: 1%; */
+
+    background-image: url(rose.jpeg);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50%;
+    background-size: cover; /* Ajustement de la taille de l'image */
+    margin: 4% 1% 4% 4%;
+    border-radius: 16px;
+    position: relative; /* Ajoute une position relative pour que les éléments enfants soient positionnés par rapport à ce conteneur */
+    color: white; /* Change la couleur du texte pour le contraster avec l'image de fond */
+    /* padding: 20px; Ajoute un padding pour décaler les textes de la bordure */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding-left: 20px; /* Décalage vers la gauche */
+}
   
-  img {
-    max-width: 100%; /* Pour s'assurer que les images ne dépassent pas de leur conteneur */
+  .image-wrapper2 {
+    /* flex: 1; Pour répartir l'espace disponible entre les deux images */
+    background-image: url('Image (7).png');
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50%;
+    background-size: cover; /* Ajustement de la taille de l'image */
+    margin: 4% 4% 4% 1%;
+    border-radius: 16px;
+    position: relative; /* Ajoute une position relative pour que les éléments enfants soient positionnés par rapport à ce conteneur */
+    color: black; /* Change la couleur du texte pour le contraster avec l'image de fond */
+    /* padding: 20px; Ajoute un padding pour décaler les textes de la bordure */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding-left: 20px; /* Décalage vers la gauche */
+}
+
+  .image-wrapper1 p,
+.image-wrapper2 p
+{
+    margin-top: 10vh; /* Supprime les marges */
+    padding: 0; /* Supprime le padding */
+    align-items: center;
+
+}
+
+.image-wrapper1 h6,
+.image-wrapper2 h6 {
+    margin-top: 0; /* Supprime les marges */
+    padding: 0; /* Supprime le padding */
+    align-items: center;
+
+}
+
+
+
+  .image-wrapper1 p
+  {
+font-family: Yellowtail;
+font-size: 36px;
+font-weight: 400;
+line-height: 49.06px;
+text-align: left;
+
+  }
+  .image-wrapper1 h6,.image-wrapper2 h6
+  {
+font-family: Roboto;
+font-size: 40px;
+font-weight: 800;
+line-height: 46.88px;
+text-align: left;
+
+  }
+.image-wrapper2 p
+{
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    text-align: left;
+    color: #7EB693;
+    
+}
+
+  .partie3
+  {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+.orange
+{
+    position: relative;
+}
+
+.orange img
+{
+width: 911px;
+height: 867px;
+top: 0px;
+left: 0px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.text
+{
+    position: relative;
+    width: 702px;
+    gap: 46px;
+    opacity: 0px;
+    
+}
+.tex2
+
+{
+    width: 50vw;
+    height: 279px;
+    gap: 7px;
+    /* padding-top: 110px; */
+    opacity: 0px;
+    align-items: center;
+      
+}
+
+.p1 
+{
+    font-family: Yellowtail;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #7EB693; 
+    
+}
+.tex2 h6
+{
+margin-bottom: 30px;
+font-family: Roboto;
+font-size: 50px;
+font-weight: 800;
+line-height: 40px;
+text-align: left;
+color: #274C5B;
+
+}
+
+#p2
+
+{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    color: #525C60;
+       
+}
+
+
+
+.tex3
+{
+width: 564px;
+height:101px;
+margin-top: 5vh;
+gap: 19px;
+opacity: 0px;
+display: flex;
+/* align-items: flex-start; */
+}
+
+.tex3 img
+{
+    width: 101px;
+    height: 101px;
+    gap: 0px;
+    opacity: 0px;
+       
+}
+
+.tex31
+{
+width: 444px;
+height:96px;
+gap: 7px;
+opacity: 0px;
+
+}
+
+
+
+#p3
+{
+    width: 283px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    color:#274C5B ;
+     
+}#p4
+{
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 29.77px;
+text-align: left;
+color: #525C60;
+}
+
+.b1
+{
+    margin-top: 60px;
+}
+.b1 button
+{
+    width: 190px;
+    height:80px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background-color: #274C5B;
+     
+}
+.b1 a
+{  
+text-decoration: none;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+line-height: 10px;
+text-align: center;
+color: white;
+
+
+}
+
+.partie4
+{
+width:100vw ;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.left-image, .right-image {
+width: 25vw; /* Ajustez la largeur selon vos besoins */
+height: 100vh; /* Ajustez la hauteur selon vos besoins */
+background-image: url('Photo\ \(5\).png'); /* Chemin vers votre image */
+background-size: cover;
+}
+
+.left-image .right-image{
+background-repeat: repeat-x; /* Répéter l'image horizontalement vers la gauche/la droite */
+}
+
+.text-section {
+position: relative; /* Ajoute un positionnement relatif */
+overflow: hidden; /* Empêche le débordement des enfants */    
+flex: 1; /* Utilisez tout l'espace disponible restant */
+padding: 0 20px; /* Ajoutez un espacement autour du texte */
+text-align: center; /* Centre le texte horizontalement */
+}
+.circle-image {
+width: 150px; /* Ajustez la taille du cercle selon vos besoins */
+height: 150px; /* Ajustez la taille du cercle selon vos besoins */
+border-radius: 50%; /* Crée un cercle */
+overflow: hidden; /* Cache les parties de l'image en dehors du cercle */
+margin: 0 auto; /* Centre le cercle horizontalement */
+position: relative;
+}
+
+.circle-image img {
+width: 100%; /* Ajustez la taille de l'image pour remplir le cercle */
+height: auto; /* Ajustez la taille de l'image pour remplir le cercle */
+/* display: block; Supprime tout espace réservé pour les lignes de texte sous l'image */
+}
+.stars {
+position: absolute; /* Position absolue par rapport au conteneur parent (.text-section) */
+bottom: 20px; /* Alignement au milieu verticalement */
+left: 50vh; /* Alignement au milieu horizontalement */
+transform: translate(-50%); /* Décalage pour centrer les étoiles par rapport au cercle */
+ /* Ajustez cette valeur pour déplacer les étoiles vers le haut ou vers le bas selon vos besoins */
+ margin-bottom: 52vh;
+}
+.star {
+font-size: 24px; /* Taille des étoiles */
+color: gold; /* Couleur des étoiles */
+margin: 0 2px; /* Espacement entre les étoiles */
+}
+
+.apstar
+{
+padding-top: 2vh;
+}
+
+.dots-container {
+text-align: center;
+margin-top: 10px;
+}
+.sara
+{
+padding-top: 9vh;
+}
+
+.dot {
+width: 10px;
+height: 10px;
+background-color: #aaa;
+border-radius: 50%;
+display: inline-block;
+margin: 0 5px;
+cursor: pointer;
+}
+
+.trait
+{
+padding-top: 9vh;
+}
+.circle-container {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 80%;
+margin: 0 auto;
+}
+
+.circle {
+width: 150px;
+height: 150px;
+border-radius: 100%;
+background-color:#f1f1f1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+transition: background-color 0.3s ease;
+}
+
+.circle h3, .circle p{
+margin: 0;
+}
+
+.circle.active {
+background-color:#f1f1f1;
+color: black;
+}
+/* Styles pour la boîte de texte superposée */
+.text2 {
+    position: absolute;
+    top: 50%; /* Centre verticalement */
+    left: 50%; /* Centre horizontalement */
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;}
+/* Style du conteneur principal */
+.partie5 {
+    position: relative;
+    width: 100vw;
+}
+.partie5 h1
+{
+font-family: Roboto;
+font-size: 50px;
+font-weight: 800;
+line-height: 58.59px;
+text-align: left;
+
+}
+#p11
+{font-family: Yellowtail;
+font-size: 36px;
+font-weight: 400;
+line-height: 49.06px;
+text-align: left;
+color: #7EB693;}
+
+
+.image {
+    width: 52vw;
     height: auto;
+}
+
+/* Styles pour le creux blanc */
+.creux {
+    position: absolute;
+    top: 10vh;
+    bottom: 10vh;
+    right: 0;
+    background-color: white;
+    padding: 130px;
+    width: 80vh; /* Ajustez la largeur du creux selon vos besoins */
+    border-radius: 12px;
+}
+
+/* Styles pour le texte dans le creux */
+
+.creux span
+{
+font-family: Roboto;
+font-size: 25px;
+font-weight: 700;
+line-height: 29.3px;
+text-align: left;
+color: #274C5B;
+
+}
+.creux p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+}
+
+.partie6 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F1F8F4;
+}
+
+.jab {
+    display: flex;
+    margin: 20px 0px 20px 0;
+  
+}
+
+.jab1,
+.jab2, 
+.jab3 {
+    position: relative;
+    text-align: center;
+}
+
+/* Utilisation du sélecteur descendant pour sélectionner les images dans .jab1, .jab2, et .jab3 */
+.jab1 img,
+.jab2 img,
+.jab3 img{
+padding-top: 20vh;
+padding-bottom: 20vh;
+}
+
+.jab2 img,
+.jab3 img {
+    padding-left: 2vw;
+}
+.mota
+{
+    width: 291px;
+    height: 96px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black; /* couleur du texte */
+    font-size: 29px; /* taille du texte */
+    font-weight: bold; /* poids de la police */
+    background-color : white; /* couleur de fond du texte */
+    padding: 10px; /* espacement autour du texte */
+    border-radius: 10px; /* rayon des coins du texte */
+    text-align: center; /* Aligner le texte au centre */
+    /* Ajuster la largeur pour le centrage horizontal */
+    width: fit-content;
+    /* Ajuster la hauteur pour le centrage vertical */
+    height: fit-content;
+}
+.partie7 {
+    width: 100vw;
+    height: 70vh;
+}
+.newsletter {
+    height: 50vh;
+    background-image: url('Background.png'); /* Ajoutez le chemin de votre image */
+    background-size: cover; /* Ajuste la taille de l'image */
+    display: flex;
+    justify-content: space-between; /* Espace le contenu sur la ligne */
+    align-items: center;
+    flex-direction: row; /* Aligne le contenu horizontalement */
+    margin: 25% 5% 25% 5%;
+    border-radius: 16px;
+}
+
+.newsletter h2 {
+    color: white;
+    margin: 0; /* Supprime les marges par défaut */
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    padding-left: 1vw;
+
+}
+
+.subscription {
+    display: flex;
+    align-items: center;
+    padding-right: 2vw;
+}
+
+.subscription input[type="email"] {
+    padding: 10px;
+    font-size: 32px 32px 32px 32px;
+    width: 349px;
+    height: 57px;
+    gap: 0px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+
+}
+
+.subscription button {
+    padding: 10px ;
+    background-color: #274C5B;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px; /* Ajoute de l'espace entre l'entrée et le bouton */
+    width:220px;
+    height: 80px;
+    /* padding: 28px 47px 29px 47px; */
+    gap: 10px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+
+}
+
+
+.partie8{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin:0 25% 0 25% ;
+}
+.contact-info, .logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.vertical-line {
+    width: 1px; /* Largeur de la barre verticale */
+    height: 50%; /* Hauteur de la barre verticale */
+    background-color: black; /* Couleur de la barre verticale */
+    margin-top: 10
+}
+.logo1 p
+{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    
+}
+.logo2
+{
+    display: flex;
+    align-items: center; /* Ajouté pour centrer verticalement le texte et l'image */
+}
+.logo2 img
+{
+    height: 50px;
+}
+.logo2 p
+{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #274C5B; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;  /* Ajustez cette valeur en fonction de vos besoins */
+    margin: 0 auto;
+}
+.circle2 {
+    width: 150px;
+    height: 100px;
+    border-radius: 100%;
+    background-color :#eff6f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    padding-left: 7px;
+    padding-right: 7px;
+    }
+.circle2 img {
+    width: 20px;  /* Ajustez cette valeur en fonction de vos besoins */
+    height: 20px;  /* Ajustez cette valeur en fonction de vos besoins */
+}
+
+.copyright {
+    text-align: center; /* Centrer le contenu horizontalement */
+    font-size: 14px;
+    color: #666; /* Couleur du texte */
+    margin-top: 20px; /* Espacement par rapport au contenu précédent */
+}
+
+.copyright p {
+    margin: 0 5px; /* Espacement entre les deux parties du contenu */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+
+}
+.bold {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.77px;
+    text-align: center;
+    color: #333;
+
 }
 
 
@@ -272,7 +786,7 @@ background: #EFD372;
     }
 
     .entete {
-        width: 80vw;
+        width: 90vw;
         height: 10vh;
     }
 
@@ -288,12 +802,411 @@ background: #EFD372;
 
     .partie1
     {
-        width: 100vw;
+        width: 60vw;
         height: 100vh;
+        background-position:right;
     }
 
     .contenu
     {
-        flex-direction: column;
+       width:40vw ;
     }
+
+
+    .contenu h1 {
+        font-size:xx-large;
+        
+        }
+
+     .partie2
+     {
+        width:100vw ;
+        flex-wrap: wrap;
+     }
+     
+     .image-wrapper1,.image-wrapper2
+     {
+        width: 100vw;
+        margin: 0 1% 2% 1%;
+     }
+     .image-wrapper1 h6,.image-wrapper2 h6
+     {
+        font-weight: 400;
+     }
+
+
+     .partie3
+     {
+        width:100vw ;
+        height: auto;
+        flex-wrap: wrap;
+     }
+     .orange img
+     {
+        max-width: 100vw;
+     }
+
+     .tex2 h6{
+        font-size: 25px;
+     }
+     #p2
+     {
+        font-size: 15px;
+     }
+
+     .tex3
+     {
+        width: 100vw;
+        height: 24vh;
+        padding-top: 12.8vh;
+        flex-direction: column;
+     }
+
+    .tex3 img
+    {
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+    .tex31
+    {
+        width: 200px;
+    }
+    .b1
+    {
+        padding-top: 5vh;
+    }
+    .b1 button{
+    
+        height: 40px;
+    }
+    .partie4
+    {
+       width: 100vw; 
+       padding-top: 2vh;
+    }
+
+    .stars {
+        position: absolute; /* Position absolue par rapport au conteneur parent (.text-section) */
+        bottom: 20px; /* Alignement au milieu verticalement */
+        left:15.5vh; /* Alignement au milieu horizontalement */
+        transform: translate(-50%); /* Décalage pour centrer les étoiles par rapport au cercle */
+         /* Ajustez cette valeur pour déplacer les étoiles vers le haut ou vers le bas selon vos besoins */
+         margin-bottom: 54vh;
+        }
+    .circle
+    {
+       width: 85px;
+       height: 75px; 
+
+    }
+    .circle h3, .circle p{
+        margin: 0;
+        font-size:x-small;
+        }
+
+    .partie5
+    {
+        width: 100vw;
+        height: 100vh;
+        margin-top: 2vh;
+        
+    }  
+    
+    .image
+    {
+        width: 100vw;
+    }
+
+ .creux
+ {
+    position: relative;
+    padding: 0px;
+  
+ }
+ .partie5 h1 
+ {
+    font-size: large;
+ }
+ #p11
+ {
+    font-size: x-large;
+ }
+.creux span
+{
+font-size: large;
 }
+.creux p
+{
+    font-size: small; 
+}
+
+.partie6
+{
+    width: 100vw;
+    height: 100vh;
+   
+   
+}
+.jab
+{
+    flex-direction: column;
+    margin-top: 200px;
+}
+.jab1 img,
+.jab2 img,
+.jab3 img{
+    width: 100vw;
+    height: 31vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 0vw;
+}
+.mota
+{
+    font-size: xx-large;
+}
+.partie7
+{
+    width:100vw ;
+    height: 40vh;
+}
+.newsletter{
+    flex-wrap: wrap;
+    margin: 4% 0 0 0;
+    border-radius: 0%;
+}
+.newsletter h2 {
+    font-size: large;
+} 
+
+.subscription input[type="email"] {
+    width: 180px;
+}
+.partie8
+{
+    height: 90vh;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+}
+.vertical-line
+{
+    display: none;
+}
+.circle2 {
+    width: 150px;
+    height: 50px;
+}
+.circle2 img {
+    width: 15px;  /* Ajustez cette valeur en fonction de vos besoins */
+    height: 15px;  /* Ajustez cette valeur en fonction de vos besoins */
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) { 
+     body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .entete {
+        width: 90vw;
+        height: 10vh;
+    }
+    .menu
+    {
+        visibility: hidden;
+    }
+
+    .m-mobile
+    {
+        visibility: show;
+    }
+    .m-mobile img 
+    {   width: auto;
+        height: auto;}
+        .partie1
+    {
+        max-width:100vw;
+        height: 100vh;
+        background-position:center;
+    }
+    .contenu
+    {
+       width:40vw ;
+    }
+
+
+    .contenu h1 {
+        font-size:xx-large;
+        
+        }
+    .partie2
+    {
+       width:100vw ;
+     
+    }
+
+
+    .image-wrapper1,.image-wrapper2
+    {
+       max-width: 70vw;
+       margin: 0 2% 2% 1%;
+    }
+
+    .partie3
+     {
+        width:100vw ;
+        height: auto;
+     }
+     .orange img
+     {
+        max-width: 50vw;
+     }
+     .text
+     {
+        width: 50vw;
+     }
+
+     .tex2 h6{
+        font-size: 25px;
+     }
+     #p2
+     {
+        font-size: 15px;
+     }
+
+     .tex3
+     {
+        width: 100vw;
+        height: 15vh;
+        padding-top: 4vh;
+        flex-direction: row;
+     }
+
+    .tex3 img
+    {
+        max-width: 10vw;
+        max-height: 10vh;
+    }
+    .tex31
+    {
+        width: 200px;
+    }
+    .b1
+    {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .b1 button{
+    
+        min-height: 80px;
+    }
+
+    .partie4
+    {
+       width: 100vw; 
+       padding-top: 2vh;
+    }
+    .stars {
+        position: absolute; /* Position absolue par rapport au conteneur parent (.text-section) */
+        bottom: 20px; /* Alignement au milieu verticalement */
+        left:27vh; /* Alignement au milieu horizontalement */
+        transform: translate(-50%); /* Décalage pour centrer les étoiles par rapport au cercle */
+         /* Ajustez cette valeur pour déplacer les étoiles vers le haut ou vers le bas selon vos besoins */
+         margin-bottom: 49vh;
+        }
+    .circle
+    {
+       width: 90px;
+       height: 85px; 
+
+    }
+    .circle h3, .circle p{
+        margin: 0;
+        font-size:small;
+
+        }
+        .partie5
+        {
+            width: 100vw;
+            height: 100vh;
+            margin-top: 2vh;
+            
+        }  
+        
+        .image
+        {
+            width: 100vw;
+        }
+        .partie6
+    {   
+    width: 100vw;
+    height:70vh;
+
+    }
+
+
+    .jab
+{
+    flex-direction:row;
+}
+
+/* .jab1 img
+{
+    max-width:33vw;
+    height: 33.5vh; 
+} */
+.jab1 img,
+.jab2 img,
+.jab3 img{
+    max-width:33vw;
+    max-height: 50vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 1vw;
+}
+.mota
+{
+    font-size: large;
+}
+
+.partie7
+{
+    width:100vw ;
+    height: 40vh;
+    
+}
+.newsletter{
+    flex-direction: row;
+    max-height: 50vh;
+    margin: 4% 0 0 0;
+    border-radius: 0%;
+}
+
+.newsletter h2 {
+    font-size: xx-large;
+} 
+
+.subscription input[type="email"] {
+    width: 150px;
+}
+.subscription button 
+{
+    width: 150px;  
+}
+
+.circle2 {
+    width: 150px;
+    height: 60px;
+}
+.circle2 img {
+    width: 15px;  /* Ajustez cette valeur en fonction de vos besoins */
+    height: 15px;  /* Ajustez cette valeur en fonction de vos besoins */
+}
+}
+
+
+     
+
+
+

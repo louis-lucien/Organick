@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0; /* Ajouté pour supprimer les marges par défaut du navigateur */
+    /* display: flex; /* Ajouté pour centrer .entete */
+    /* justify-content: center; Ajouté pour centrer .entete */
+    /* align-items: center; Ajouté pour centrer .entete */ 
+}
+
+.entete {
+    width: 90vw; /* Modifié pour donner de l'espace sur les côtés */
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Ajouté pour séparer .logo et .menu */
+    padding-left:2vw ;
+    padding-right: 1vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Ajouté pour centrer verticalement le texte et l'image */
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #274C5B;
+}
+.menu a {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 10px;
+    text-align: left;
+    text-decoration: none;
+    color: #274C5B;
+}
+
+.m-mobile {
+    display: none;
+}
+.partie1
+
+{
+    padding-top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Photo3.png'); /* Spécifiez le chemin de votre image */
+     /* Ajuste la taille de l'image pour remplir l'ensemble de l'élément parent */
+     background-repeat: no-repeat; /* Empêche l'image de se répéter */
+     background-position: right; /* Positionne l'image de fond à droite */
+}
+
+.contenu {
+    position: absolute; /* Position absolue par rapport au conteneur parent (.partie1) */
+    /* top: 50%; Place le contenu au milieu de la partie supérieure */
+    /* left: 5%; Ajuste la position du contenu à gauche */
+    transform: translateY(-50%); /* Centre verticalement le contenu */
+    color: white; /* Couleur du texte */
+    width: 530px;
+    height:405px;
+    top: 451px;
+    left: 260px;
+    gap: 23px;
+    opacity: 0px;
+
+}
